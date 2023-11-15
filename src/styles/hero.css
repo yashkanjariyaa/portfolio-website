@@ -1,0 +1,275 @@
+:root {
+  --faded-border: rgba(255, 255, 255, 0.48) 1px solid;
+  --radius-border: 15px;
+  --light-orange: #fa843a;
+  --navy-blue: #266bae;
+  --solid-border: white 1.5px solid;
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/*main*/
+.main {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100vh;
+  font-family: "Noto Serif Display", serif;
+}
+.bgImage {
+  opacity: 0.18;
+  position: absolute;
+  object-fit: cover;
+}
+.imageOne {
+  height: 110vh;
+  width: auto;
+  left: 0px;
+}
+.imageTwo {
+  top: 10vh;
+  height: 120vh;
+  width: auto;
+  right: -6vw;
+}
+/*Nav-Bar*/
+.navbar {
+  position: relative;
+  overflow: none;
+  width: 100vw;
+  height: 90px;
+  z-index: 1;
+}
+.menu {
+  float: right;
+  margin: 30px 30px;
+}
+.hero {
+  float: left;
+  margin: 30px 30px;
+}
+.navbar .unordered-list {
+  list-style-type: none;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.navbar .unordered-list .list-element {
+  padding: 0px 50px;
+  margin: 30px 20px;
+}
+.list-element a:hover {
+  text-decoration: underline;
+}
+.list-element a {
+  color: white;
+  text-decoration: none;
+}
+/*Containers*/
+.container {
+  color: white;
+  font-size: 1.1vw;
+  position: absolute;
+  top: 9vh;
+  left: 6vw;
+}
+.container .subcontainer {
+  border: var(--faded-border);
+  border-radius: var(--radius-border);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 20vw;
+  margin-bottom: 15px;
+  backdrop-filter: blur(8px);
+}
+.subcontainer li {
+  margin: 17px 20px;
+}
+.listHead {
+  opacity: 0.78;
+}
+.listEle {
+  opacity: 0.48;
+}
+/*links*/
+.links {
+  font-size: 1.1vw;
+  width: 15vw;
+  position: absolute;
+  left: 28vw;
+  top: 9vh;
+  opacity: 0.78;
+}
+.links li {
+  list-style-type: none;
+  text-align: left;
+}
+.links li a {
+  color: white;
+}
+/*Latest release*/
+.latest {
+  height: 11.5vh;
+  width: 20vw;
+  border: var(--faded-border);
+  border-radius: var(--radius-border);
+  position: absolute;
+  right: 7vw;
+  top: 12vh;
+  color: white;
+  backdrop-filter: blur(8px);
+  animation: float 3s ease-in-out infinite;
+}
+.latest .image {
+  height: 8.5vh;
+  width: auto;
+  margin: 15px;
+  float: left;
+}
+.latest .title,
+.latest .content {
+  text-align: right;
+  font-size: 1.2vw;
+  margin: 5px;
+  position: absolute;
+  opacity: 0.78;
+}
+.latest .title {
+  top: 5px;
+  right: 10px;
+}
+.latest .content {
+  bottom: 30px;
+  right: 10px;
+}
+.arrow {
+  height: 30px;
+  width: auto;
+  transform: rotate(45deg);
+  opacity: 0.78;
+}
+.latest .arrow {
+  position: absolute;
+  bottom: 1vh;
+  left: 7vw;
+}
+/*hero image*/
+.center {
+  position: absolute;
+  right: 0vw;
+  top: 0vh;
+  height: 75vh;
+  width: 70vw;
+  color: white;
+}
+.center .image {
+  position: absolute;
+  right: 14vw;
+  height: auto;
+  width: 50vw;
+}
+.circle {
+  position: absolute;
+  top: 100px;
+  right: 39.5vw;
+  height: 30vh;
+  width: auto;
+  animation: spin 20s linear infinite;
+}
+/*Wikipedia text*/
+.text-container {
+  color: white;
+  height: max-content;
+  float: left;
+  text-align: left;
+  margin: 10px;
+  position: absolute;
+  left: 6vw;
+  bottom: 4vh;
+  width: 45vw;
+  font-size: 1.1vw;
+}
+.text-container .head {
+  opacity: 0.48;
+}
+.text-container .text {
+  opacity: 0.78;
+}
+/*location*/
+.location {
+  color: white;
+  font-size: 2vw;
+  opacity: 0.48;
+  width: 16vw;
+  text-align: right;
+  position: absolute;
+  right: 7vw;
+  top: 28vh;
+}
+/*top hits*/
+.tophits {
+  color: white;
+  position: absolute;
+  bottom: 2vh;
+  right: 20vw;
+  text-align: left;
+  font-size: 1vw;
+}
+.tophits .tophits-list {
+  list-style-type: none;
+}
+.tophits .tophits-list li,
+.tophits .head {
+  margin: 13px;
+}
+.tophits .head {
+  font-size: 1.4vw;
+}
+.tophits .tophits-list li div {
+  opacity: 0.78;
+  border: var(--solid-border);
+  border-radius: 5px;
+  width: 15vw;
+  height: 4vh;
+  backdrop-filter: blur(8px);
+}
+.tophits .tophits-list li div p {
+  opacity: 1;
+  padding: 5px 10px;
+  float: left;
+}
+.tophits .tophits-list li div .icon {
+  height: 15px;
+  width: auto;
+  float: right;
+  padding: 11px;
+}
+.tophits .arrow {
+  position: absolute;
+  top: 15px;
+  left: 6vw;
+}
