@@ -1,3 +1,7 @@
+.navbar{
+  position: fixed;
+}
+
 .App {
   text-align: center;
 }

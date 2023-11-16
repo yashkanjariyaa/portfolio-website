@@ -1,0 +1,48 @@
+:root{
+  --faded-border: rgba(255, 255, 255, 0.705) 2px solid;
+}
+.section{
+    text-align: left;
+    margin: 0px;
+    width: 23vw;
+    padding: 10px;
+}
+.section .image{
+    height: 420px;
+    width: auto;
+    margin: 2px;
+    border-radius: 5%;
+}
+.section .head{
+    border: var(--faded-border);
+    border-radius: 15px;
+    padding: 10px;
+    height: fit-content;
+    margin: 5px 0px;
+    position: relative;
+    width: 21vw;
+}
+.section .text, .section .head .description{
+    opacity: 0.54;
+    padding: 5px;
+}
+.section .text{
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.section .head .description{
+    font-size: 14px;
+}
+.section .head .name, .section .head .year{
+    font-size: 23px;
+    display: inline;
+}
+.section .head .name{
+    text-align: left;
+}
+.section .head .year{
+    text-align: right;
+    position: absolute;
+    margin: 0px 10px 10px 0px;
+    right: 0;
+}

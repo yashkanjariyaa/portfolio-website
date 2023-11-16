@@ -54,19 +54,19 @@ function Hero() {
       <div className="container">
         <div className="achievements-container">
           <ul className="achievements-list subcontainer">
-            <li className="achievements listHead">
+            <li className="achievements listHead highlight">
               <p>Achievements</p>
             </li>
-            <li className="achievements listEle">
+            <li className="achievements listEle highlight">
               <p>13 Grammy Awards</p>
             </li>
-            <li className="achievements listEle">
+            <li className="achievements listEle highlight">
               <p>Academy Award for best original song 'HUMBLE'</p>
             </li>
-            <li className="achievements listEle">
+            <li className="achievements listEle highlight">
               <p>Multiple Billboard Music Awards</p>
             </li>
-            <li className="achievements listEle">
+            <li className="achievements listEle highlight">
               <p>
                 First non-classical or jazz artist to win a Pulitzer Price for
                 Music
@@ -76,16 +76,16 @@ function Hero() {
         </div>
         <div className="events-container">
           <ul className="events-list subcontainer">
-            <li className="events listHead">
+            <li className="events listHead highlight">
               <p>Events</p>
             </li>
-            <li className="events listEle">
+            <li className="events listEle highlight">
               <p>2024 Concert Tour</p>
             </li>
-            <li className="events listEle">
+            <li className="events listEle highlight">
               <p>2023 Concert Tour</p>
             </li>
-            <li className="events listEle">
+            <li className="events listEle highlight">
               <p>2022 Super Bowl</p>
             </li>
           </ul>
@@ -93,14 +93,14 @@ function Hero() {
       </div>
       <div className="links">
         <ul className="list">
-          <li>
-            <a href="#">PGLang</a>
+          <li className="highlight">
+            <a href="#" >PGLang</a>
           </li>
-          <li>
-            <a href="#">Top Dawg Entertainment</a>
+          <li className="highlight">
+            <a href="#" >Top Dawg Entertainment</a>
           </li>
-          <li>
-            <a href="#">Oklama</a>
+          <li className="highlight">
+            <a href="#" >Oklama</a>
           </li>
         </ul>
       </div>
@@ -115,7 +115,7 @@ function Hero() {
         <p className="content">The Hillbillies</p>
       </div>
       <div className="location">
-        <p>COMPTON, CALIFORNIA, US</p>
+        <p className=" highlight">COMPTON, CALIFORNIA, US</p>
       </div>
       <div className="center">
         <img src={circle} alt="circle text" className="circle"></img>
