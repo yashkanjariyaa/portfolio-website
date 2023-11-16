@@ -1,6 +1,6 @@
 .big-container{
     position: absolute;
-    top: 120px;
+    top: 7vh;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
@@ -8,7 +8,7 @@
     border: rgba(255, 255, 255, 0.48) 1px solid;
     border-radius: 15px;
     height: 80vh;
-    width: 97vw;
+    width: 96vw;
     overflow-x: hidden;
 }
 .stopScroll{
@@ -23,6 +23,6 @@
 .main .heading{
     position: absolute;
     left: 1.5vw;
-    top: 8vh;
+    top: 4vh;
     font-size: 2vw;
 }

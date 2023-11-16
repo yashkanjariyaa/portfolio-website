@@ -36,8 +36,9 @@
 .para{
     text-align: left;
     position: absolute;
-    width: 50vw;
-    opacity: 0.78;
+    width: 45vw;
+    opacity: 0.48;
+    font-size: 0.7vw;
 }
 .paraOne{
     top: 20.5vh;
@@ -58,10 +59,10 @@
 .genres{
     text-align: left;
     width: 100px;
-    font-size: 1.4vw;
-    opacity: 0.78;
+    font-size: 1.1vw;
+    opacity: 0.48;
     position: absolute;
-    top: 42vh;
+    top: 45vh;
     left: 35vw;
 }
 .quote{
@@ -88,4 +89,5 @@
     width: 100vw;
     height: auto;
     opacity: 0.3;
+    filter: blur(3px);
 }

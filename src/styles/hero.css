@@ -35,12 +35,14 @@
   height: 110vh;
   width: auto;
   left: 0px;
+  filter: blur(3px);
 }
 .imageTwo {
   top: 10vh;
   height: 120vh;
   width: auto;
   right: -6vw;
+  filter: blur(3px);
 }
 /*Nav-Bar*/
 .navbar {
@@ -93,7 +95,7 @@
   text-align: left;
   width: 20vw;
   margin-bottom: 15px;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
 }
 .subcontainer li {
   margin: 17px 20px;
@@ -130,7 +132,7 @@
   right: 7vw;
   top: 12vh;
   color: white;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
   animation: float 3s ease-in-out infinite;
 }
 .latest .image {
@@ -244,7 +246,7 @@
   border-radius: 5px;
   width: 15vw;
   height: 4vh;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
 }
 .tophits .tophits-list li div p {
   opacity: 1;
