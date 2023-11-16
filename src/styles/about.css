@@ -89,5 +89,5 @@
     width: 100vw;
     height: auto;
     opacity: 0.3;
-    filter: blur(3px);
+    filter: blur(7px);
 }

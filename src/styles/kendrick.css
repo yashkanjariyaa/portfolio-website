@@ -32,3 +32,12 @@
     bottom: 0vh;
     right: 5vw;
 }
+.paragraph{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.5vw;
+    width: 21vw;
+    position: absolute;
+    bottom: 10vh;
+    left: 40vw;
+}

@@ -5,8 +5,6 @@
     flex-wrap: wrap;
     padding: 10px;
     margin: 20px;
-    border: rgba(255, 255, 255, 0.48) 1px solid;
-    border-radius: 15px;
     height: 80vh;
     width: 96vw;
     overflow-x: hidden;
@@ -25,4 +23,14 @@
     left: 1.5vw;
     top: 4vh;
     font-size: 2vw;
+}
+.bgImageMusic{
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: auto;
+    left: 0;
+    top: -40vh;
+    opacity: 0.2;
+    filter: blur(10px);
 }

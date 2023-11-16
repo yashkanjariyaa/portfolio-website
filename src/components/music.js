@@ -7,7 +7,7 @@ import GoodKid from "../assets/GoodKid.jpg";
 import Section80 from "../assets/Section80.jpg";
 import Untitled from "../assets/Untitled.jpg";
 import BlackPanther from "../assets/BlackPanther.jpg";
-import bgImage from "../assets/Kendrick Lamar Wallpaper HD.jpg"
+import bgImage from "../assets/Kendrick Lamar crown.jpg"
 import "../styles/music.css";
 import "react-intersection-observer";
 function Music() {
@@ -138,8 +138,8 @@ function Music() {
   return (
     <div className="main">
           <p className="heading">Discography</p>
+          <img src={bgImage} className="bgImageMusic" alt="bgImage"></img>
           <div className="big-container stopScroll" ref={container}>
-            {/*<img src={bgImage} className="bgImage" alt="bgImage"></img>*/}
             {sectionArray.map((section, index) => (
               <Section
                 key={index}

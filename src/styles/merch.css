@@ -1,0 +1,44 @@
+@keyframes carousel{
+    100%{
+        transform: translateX(130vw);
+    }
+}
+.bgImageMerch{
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: auto;
+    left: 0;
+    top: -20vh;
+    opacity: 0.4;
+    filter: blur(8px);
+}
+.Merch{
+    position: absolute;
+    top: 10vh;
+    left: 31vw;
+    font-size: 3vw;
+    font-family: 'Montserrat', sans-serif;
+}
+.carouselText{
+    position: absolute;
+    top: 18vh;
+    left: -30vw;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+.carouselTextOne{
+    animation: carousel 10s linear infinite 2.8s;
+}
+.carouselTextTwo{
+    animation: carousel 10s linear infinite 0s;
+}
+.carouselTextThree{
+    animation: carousel 10s linear infinite 2.4s;
+}
+.carouselTextFour{
+    animation: carousel 10s linear infinite 1.2s;
+}
+.carouselTextFive{
+    animation: carousel 10s linear infinite 4.5s;
+}
