@@ -46,9 +46,6 @@ function Hero() {
           <li className="list-element">
             <a href="#About">About</a>
           </li>
-          <li className="list-element">
-            <a href="#Contacts">Contacts</a>
-          </li>
         </ul>
       </div>
       <div className="container">
@@ -112,7 +109,7 @@ function Hero() {
         />
         <img src={hillbillies} alt="music" className="image"></img>
         <p className="title">New Single Released</p>
-        <p className="content">The Hillbillies</p>
+        <p className="content highlight">The Hillbillies</p>
       </div>
       <div className="location">
         <p className=" highlight">COMPTON, CALIFORNIA, US</p>
@@ -139,31 +136,31 @@ function Hero() {
         <ul className="tophits-list">
           <li>
             <div>
-              <p>Money Trees</p>
+              <a href="https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg" className="linkToSpotify highlight">Money Trees</a>
               <FontAwesomeIcon icon={faPlay} className="icon"/>
             </div>
           </li>
           <li>
             <div>
-              <p>HUMBLE</p>
+            <a href="https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg" className="linkToSpotify highlight">HUMBLE</a>
               <FontAwesomeIcon icon={faPlay} className="icon" />
             </div>
           </li>
           <li>
             <div>
-              <p>All The Stars(with SZA)</p>
+            <a href="https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg" className="linkToSpotify highlight">All The Stars (with SZA)</a>
               <FontAwesomeIcon icon={faPlay} className="icon" />
             </div>
           </li>
           <li>
             <div>
-              <p>family ties</p>
+            <a href="https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg" className="linkToSpotify highlight">family ties</a>
               <FontAwesomeIcon icon={faPlay} className="icon" />
             </div>
           </li>
           <li>
             <div>
-              <p>LOVE. FEAT. ZACARI</p>
+            <a href="https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg" className="linkToSpotify highlight">LOVE. FEAT. ZACARI</a>
               <FontAwesomeIcon icon={faPlay} className="icon" />
             </div>
           </li>

@@ -1,3 +1,23 @@
+@keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      transform: translatey(0px);
+    }
+    30% {
+      box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+      transform: translatey(-30px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      transform: translatey(0px);
+    }
+  }
 .kendrickSitting{
     position: absolute;
     width: 30vw;
@@ -9,7 +29,7 @@
     position: absolute;
     top: 10vh;
     left: 35vw;
-    width: 600px;
+    width: 35vw;
     font-family: 'DM Serif Display', serif;
 }
 .heading-about .thisIs, .heading-about .oklama{
@@ -90,4 +110,13 @@
     height: auto;
     opacity: 0.3;
     filter: blur(7px);
+    animation: float 6s linear infinite;
+}
+.circle2{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    left: 12.5vw;
+    top: 4vh;
+    animation: spin 20s linear infinite;
 }

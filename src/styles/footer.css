@@ -1,0 +1,48 @@
+.mainFooter{
+    height: 40vh;
+    width: 100vw;
+    background: rgb(26,23,31);
+background: radial-gradient(circle, rgba(26,23,31,1) 0%, rgba(0,0,0,1) 100%);
+    color: white;
+    font-size: 1vw;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+.block .name{
+    font-size: 1.9vw;
+}
+.block .by{
+    opacity: 0.7;
+}
+.icon{
+    height: auto;
+    width: 3vw;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 10vw;
+}
+.block .sub-block{
+    margin: 1vh 2vw;
+    display: flex;
+    align-items: center;
+    height: max-content;
+}
+.sub-block .link{
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    margin: 5px 5px;
+}
+.socials{
+    margin: 15px 0px;
+    color: white;
+    font-size: 0.7vw;
+    opacity: 0.8;
+}
+.link{
+    opacity: 0.8;
+}

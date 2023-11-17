@@ -1,11 +1,11 @@
 @keyframes carousel{
     100%{
-        transform: translateX(130vw);
+        transform: translateX(230vw);
     }
 }
 .bgImageMerch{
     position: absolute;
-    z-index: 0;
+    z-index: -1;
     width: 100vw;
     height: auto;
     left: 0;
@@ -23,22 +23,47 @@
 .carouselText{
     position: absolute;
     top: 18vh;
-    left: -30vw;
+    left: -130vw;
     font-size: 2vw;
     font-family: 'Montserrat', sans-serif;
 }
 .carouselTextOne{
-    animation: carousel 10s linear infinite 2.8s;
+    animation: carousel 20s linear infinite 0s;
 }
 .carouselTextTwo{
-    animation: carousel 10s linear infinite 0s;
+    animation: carousel 20s linear infinite 12s;
 }
-.carouselTextThree{
-    animation: carousel 10s linear infinite 2.4s;
+.tshirt-container{
+    position: absolute;
+    top: 25vh;
+    left: 0vw;
+    display: flex;
+    flex-direction: row;
 }
-.carouselTextFour{
-    animation: carousel 10s linear infinite 1.2s;
+.tshirtElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw;
 }
-.carouselTextFive{
-    animation: carousel 10s linear infinite 4.5s;
+.tshirt{
+    z-index: 1;
+    width: 20vw;
+    height: auto;
+    margin: 25px;
+}
+.addToCart{
+    color: rgb(0, 0, 0);
+    width: 7vw;
+    height: 4vh;
+    border-radius: 7px;
+    font-size: 0.8vw;
+}
+.store{
+    font-size: 0.6vw;
+    width: 60vw;
+    position: absolute;
+    bottom: 10vh;
+    left: 18vw;
+    opacity: 0.8;
 }

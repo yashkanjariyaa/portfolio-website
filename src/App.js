@@ -4,7 +4,9 @@ import Hero from './components/hero';
 import Kendrick from './components/kendrick';
 import Merch from './components/merch';
 import Music from './components/music';
+import Footer from './components/footer';
 function App() {
+  
   return (
     <div className="App">
       <Hero/>
@@ -12,6 +14,7 @@ function App() {
       <Merch/>
       <Kendrick/>
       <About/>
+      <Footer/>
     </div>
   );
 }

@@ -2,10 +2,12 @@ import React from "react";
 import kendrick from "../assets/kendrick sitting.png";
 import kendrickFlying from "../assets/Kendrick Lamar Wallpaper HD.jpg";
 import "../styles/about.css";
+import circle2 from "../assets/circle2.png"
 function About() {
   return (
     <div className="main">
       <img src={kendrickFlying} alt="kendrick" className="kendrickFlying"></img>
+      <img src={circle2} alt="circle" className="circle2"></img>
       <img src={kendrick} alt="kendrick" className="kendrickSitting"></img>
       <p className="about">About</p>
       <div className="heading-about">

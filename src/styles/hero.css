@@ -248,7 +248,7 @@
   height: 4vh;
   backdrop-filter: blur(10px);
 }
-.tophits .tophits-list li div p {
+.tophits .tophits-list li div a {
   opacity: 1;
   padding: 5px 10px;
   float: left;
@@ -263,4 +263,10 @@
   position: absolute;
   top: 15px;
   left: 6vw;
+}
+.linkToSpotify{
+  color: white;
+  text-decoration: none;
+  font-size: 0.9vw;
+  padding: 0px 10px;
 }
