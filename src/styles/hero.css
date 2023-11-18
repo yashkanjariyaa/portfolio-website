@@ -48,11 +48,13 @@
 .navbar {
   position: fixed;
   overflow: none;
-  width: 99vw;
-  height: 3vh;
+  width: 100vw;
+  height: 8vh;
   z-index: 99;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 10%, rgba(0, 0, 0, 0.027) 100%);
 }
-.landMarkIcon{
+.landMarkIcon {
   margin: 4vh 3vw;
   width: 1.3vw;
   height: auto;
