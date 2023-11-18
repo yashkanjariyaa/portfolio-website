@@ -44,7 +44,7 @@ function Music() {
     },
     {
       head: {
-        name: "Good Kid, M.A.A.D City",
+        name: "Good Kid, \n M.A.A.D City",
         year: "2012",
         description:
           "Good Kid, M.A.A.D City (stylized as good kid, m.A.A.d city) is the second studio album by the American rapper Kendrick Lamar. It was released on October 22, 2012.",
@@ -87,7 +87,7 @@ function Music() {
   const options = {
     roots: null,
     rootMargin: "0px",
-    threshold: 1,
+    threshold: 0.9,
   };
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -136,7 +136,7 @@ function Music() {
   */
  
   return (
-    <div className="main">
+    <div className="main" id="music">
           <p className="heading">Discography</p>
           <img src={bgImage} className="bgImageMusic" alt="bgImage"></img>
           <div className="big-container stopScroll" ref={container}>

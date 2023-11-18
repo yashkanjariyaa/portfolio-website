@@ -41,7 +41,7 @@
   top: 10vh;
   height: 120vh;
   width: auto;
-  right: -6vw;
+  right: 0vw;
   filter: blur(3px);
 }
 /*Nav-Bar*/
@@ -264,7 +264,7 @@
   top: 15px;
   left: 6vw;
 }
-.linkToSpotify{
+.linkToSpotify {
   color: white;
   text-decoration: none;
   font-size: 0.9vw;

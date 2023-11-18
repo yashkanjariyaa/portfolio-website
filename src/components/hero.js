@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/hero.css";
+/*fontawesome icons*/ 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
@@ -7,11 +8,14 @@ import {
   faLandmark,
   faPlay
 } from "@fortawesome/free-solid-svg-icons";
+/*Images*/
 import hillbillies from "../assets/Screenshot_20231113-164120_Spotify.jpg";
 import kendrick from "../assets/kendrick lamar with text.png";
 import bgImageOne from "../assets/Screenshot_20231113-165101_Spotify.jpg";
 import bgImageTwo from "../assets/Screenshot_20231113-164541_Spotify.jpg";
 import circle from "../assets/circle.png";
+/*scrolling and link*/
+import { Link as ScrollLink } from 'react-scroll';
 function Hero() {
   return (
     <div className="main">
@@ -38,13 +42,34 @@ function Hero() {
         />
         <ul className="unordered-list">
           <li className="list-element">
-            <a href="#Music">Music</a>
+              <ScrollLink
+              activeClass="active"
+              to="music"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >Music</ScrollLink>
           </li>
           <li className="list-element">
-            <a href="#Merch">Merch</a>
+          <ScrollLink
+              activeClass="active"
+              to="merch"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >Merch</ScrollLink>
           </li>
           <li className="list-element">
-            <a href="#About">About</a>
+          <ScrollLink
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >About</ScrollLink>
           </li>
         </ul>
       </div>

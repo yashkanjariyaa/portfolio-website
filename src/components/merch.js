@@ -7,7 +7,7 @@ import tshirt4 from "../assets/Kendrick_Lamar_T-Shirt-removebg-preview.png";
 import bgImageMerch from "../assets/[deleted by user].jpg";
 function Merch() {
   return (
-    <div className="main">
+    <div className="main" id='merch'>
       <div className="tshirt-container">
         <div className="tshirtElement elementOne">
           <img src={tshirt1} alt="tshirt" className="tshirt1 tshirt"></img>

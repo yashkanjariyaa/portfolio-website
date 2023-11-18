@@ -6,7 +6,7 @@
     padding: 10px;
     margin: 20px;
     height: 80vh;
-    width: 96vw;
+    width: 97vw;
     overflow-x: hidden;
 }
 .stopScroll{
@@ -21,7 +21,7 @@
 .main .heading{
     position: absolute;
     left: 1.5vw;
-    top: 4vh;
+    top: 3vh;
     font-size: 2vw;
 }
 .bgImageMusic{

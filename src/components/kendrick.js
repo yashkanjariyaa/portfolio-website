@@ -4,7 +4,7 @@ import kendrick from "../assets/King Kendrick Lamar.jpg";
 import ring from "../assets/about below.png";
 function Kendrick() {
   return (
-    <div className="main">
+    <div className="main"  id="about">
       <img src={kendrick} alt="king" className="king"></img>
       <p className="music centerText">MUSIC</p>
       <p className="everywhere centerText">EVERYWHERE/©2023</p>
