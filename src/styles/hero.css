@@ -49,27 +49,30 @@
   position: fixed;
   overflow: none;
   width: 99vw;
-  height: 90px;
-  z-index: 1;
+  height: 3vh;
+  z-index: 99;
 }
-.menu {
-  float: right;
-  margin: 30px 30px;
+.landMarkIcon{
+  margin: 4vh 3vw;
+  width: 1.3vw;
+  height: auto;
 }
 .hero {
-  float: left;
-  margin: 30px 30px;
+  position: absolute;
+  left: 0;
+  z-index: 3;
 }
 .navbar .unordered-list {
   list-style-type: none;
   width: 100vw;
+  height: 3vh;
   display: flex;
   justify-content: center;
   position: absolute;
 }
 .navbar .unordered-list .list-element {
   padding: 0px 50px;
-  margin: 30px 20px;
+  margin: 3vh 20px;
 }
 .list-element a:hover {
   text-decoration: underline;
@@ -77,6 +80,7 @@
 .list-element a {
   color: white;
   text-decoration: none;
+  font-size: 1vw;
 }
 /*Containers*/
 .container {
@@ -85,6 +89,7 @@
   position: absolute;
   top: 9vh;
   left: 6vw;
+  z-index: 2;
 }
 .container .subcontainer {
   border: var(--faded-border);
@@ -94,11 +99,12 @@
   flex-direction: column;
   text-align: left;
   width: 20vw;
+  height: fit-content;
   margin-bottom: 15px;
   backdrop-filter: blur(10px);
 }
 .subcontainer li {
-  margin: 17px 20px;
+  margin: 12px 20px;
 }
 .listHead {
   opacity: 0.78;
@@ -134,12 +140,15 @@
   color: white;
   backdrop-filter: blur(10px);
   animation: float 3s ease-in-out infinite;
+  z-index: 3;
 }
 .latest .image {
   height: 8.5vh;
   width: auto;
-  margin: 15px;
   float: left;
+  position: absolute;
+  top: 1.5vh;
+  left: 1vw;
 }
 .latest .title,
 .latest .content {
@@ -150,16 +159,16 @@
   opacity: 0.78;
 }
 .latest .title {
-  top: 5px;
-  right: 10px;
+  top: 1vh;
+  right: 1vw;
 }
 .latest .content {
-  bottom: 30px;
-  right: 10px;
+  bottom: 3vh;
+  right: 1vw;
 }
 .arrow {
-  height: 30px;
-  width: auto;
+  height: auto;
+  width: 2vw;
   transform: rotate(45deg);
   opacity: 0.78;
 }
@@ -184,11 +193,11 @@
   width: 50vw;
 }
 .circle {
+  height: auto;
+  width: 15vw;
   position: absolute;
-  top: 100px;
-  right: 39.5vw;
-  height: 30vh;
-  width: auto;
+  left: 15vw;
+  top: 10vh;
   animation: spin 20s linear infinite;
 }
 /*Wikipedia text*/
@@ -199,8 +208,7 @@
   text-align: left;
   margin: 10px;
   position: absolute;
-  left: 6vw;
-  bottom: 4vh;
+  left: 0vw;
   width: 45vw;
   font-size: 1.1vw;
 }
@@ -245,7 +253,7 @@
   border: var(--solid-border);
   border-radius: 5px;
   width: 15vw;
-  height: 4vh;
+  height: 3.5vh;
   backdrop-filter: blur(10px);
 }
 .tophits .tophits-list li div a {
@@ -254,10 +262,10 @@
   float: left;
 }
 .tophits .tophits-list li div .icon {
-  height: 15px;
-  width: auto;
+  height: auto;
+  width: 0.7vw;
   float: right;
-  padding: 11px;
+  margin: 0.5vw;
 }
 .tophits .arrow {
   position: absolute;

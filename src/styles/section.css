@@ -1,9 +1,9 @@
 :root{
-  --faded-border: rgba(255, 255, 255, 0.705) 2px solid;
+  --faded-border: rgba(255, 255, 255, 0.705) 1px solid;
 }
 .section{
     text-align: left;
-    margin: 7px;
+    margin: 0px;
     width: 23vw;
     padding: 10px 5px;
 }
@@ -15,7 +15,7 @@
 }
 .section .head{
     border: var(--faded-border);
-    border-radius: 15px;
+    border-radius: 7px;
     padding: 10px;
     height: fit-content;
     margin: 5px 25px;
@@ -34,7 +34,7 @@
     font-size: 1vw;
 }
 .section .head .name, .section .head .year{
-    font-size: 1.5vw;
+    font-size: 1.1vw;
     display: inline-block;
 }
 .section .head .name{

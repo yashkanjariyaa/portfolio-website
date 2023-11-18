@@ -18,25 +18,25 @@ function Footer() {
       <div className="block">
         <div className="sub-block">
           <img src={spotify} className="icon spotfiy"></img>
-          <a href="#" className="link highlight">
+          <a href="https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg" className="link highlight">
             Spotfiy
           </a>
         </div>
         <div className="sub-block">
           <img src={amazonMusic} className="icon amazonMusic"></img>
-          <a href="#" className="link highlight">
+          <a href="https://music.amazon.com/artists/B0042Q3AB4/kendrick-lamar" className="link highlight">
             Amazon Music
           </a>
         </div>
         <div className="sub-block">
           <img src={youtubeMusic} className="icon youtubeMusic"></img>
-          <a href="#" className="link highlight">
+          <a href="https://www.youtube.com/channel/UC3lBXcrKFnFAFkfVk5WuKcQ" className="link highlight">
             Youtube Music
           </a>
         </div>
         <div className="sub-block">
           <img src={jioSaavan} className="icon jioSaavan"></img>
-          <a href="#" className="link highlight">
+          <a href="https://www.jiosaavn.com/artist/kendrick-lamar-songs/44fbKDllOW0_" className="link highlight">
             Jio Saavan
           </a>
         </div>

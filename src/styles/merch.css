@@ -3,6 +3,17 @@
         transform: translateX(230vw);
     }
 }
+.display-container{
+    position: absolute;
+    top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
 .bgImageMerch{
     position: absolute;
     z-index: -1;
@@ -26,6 +37,7 @@
     left: -130vw;
     font-size: 2vw;
     font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
 }
 .carouselTextOne{
     animation: carousel 20s linear infinite 0s;
@@ -34,9 +46,6 @@
     animation: carousel 20s linear infinite 12s;
 }
 .tshirt-container{
-    position: absolute;
-    top: 25vh;
-    left: 0vw;
     display: flex;
     flex-direction: row;
 }
@@ -44,7 +53,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1vw;
+    margin: 0vw;
 }
 .tshirt{
     z-index: 1;
@@ -53,17 +62,27 @@
     margin: 25px;
 }
 .addToCart{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border: white 1px solid;
     width: 7vw;
     height: 4vh;
     border-radius: 7px;
     font-size: 0.8vw;
 }
+.addToCart:hover{
+    color: black;
+    background-color: white;
+}
+.addToCart:active{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.747);
+    border: none;
+}
 .store{
     font-size: 0.6vw;
     width: 60vw;
-    position: absolute;
-    bottom: 10vh;
-    left: 18vw;
     opacity: 0.8;
+    margin: 100px 0px;
+    text-align: center;
 }
